@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title> Yan A Miao</title>
+    <link rel="stylesheet" href="css/back.css">
+    <link rel="stylesheet" href="css/temp.css">
+    <link rel="stylesheet" href="css/aboutme.css">
+    <link rel="shortcut icon" href="images/wait.cur"> <!-- 改页面icon-->
+</head>
+<body>
+<!--侧栏-->
+<aside class="aside_line">
+    <header>
+        <div class="logo">
+            <h1>
+                <a href="index.html" title="点击返回首页">
+                    <p>Y A M</p>
+                    <p>
+                        <span>Yan</span>
+                        <span>A</span>
+                        <span>Miao</span>
+                    </p>
+                </a>
+            </h1>
+        </div>
+        <label for="meun1"></label>
+        <input type="checkbox" id="meun1">
+        <nav class="nav">
+            <ul class="navbar-nav">
+                <li><a href="index.html"># 首页</a></li>
+                <li><a href="code.html"># 编程</a></li>
+                <li><a href="software.html"># 软件</a></li>
+                <li><a href="share.html"># Share</a></li>
+            </ul>
+            <ol class="vice-nav">
+                <li><a href="file.html" >### 归档</a></li>
+                <li><a href="aboutme.html" class="nav-red">### 关于我</a></li>
+                <li><a href="pay.html">### 捐助我</a></li>
+            </ol>
+
+        </nav>
+    </header>
+</aside>
+<!--主要内容-->
+<div class="main">
+    <div class="content">
+        <p>—— 我喜欢你，认真且怂，从一而终 ——</p>
+        <div class="about_me">
+            <div class="about"><h3>关于我</h3></div>
+            <span class="about_span">
+            <img src="images/123.png" class="about_img">
+            </span>
+            <p class="home">这是我的个人主页 取名为"YAM" 其实没有其他的 只是因为这是我的名字而已 我也懒得起名字 这个博客主要是记录我的一些兴趣爱好还有学习历程 我喜欢设计 喜欢前端 喜欢摄影 目前在广州居住 关于网页的编写都是自已亲手写的 希望看到的有缘人 有什么意见或者建议都可以跟我提出来 谢谢支持~~~ </p>
+
+            <div class="about"><h3>留言板</h3></div>
+            <p class="leave_p">这里是留言板~留言板~ 喜欢留言什么就留言什么吧 当然！ 广告、和敏感的言论就不要说了 谢谢啦~~~</p>
+            <label class="leave_word">
+                <div class="left">
+                    <h4>留言内容: </h4>
+                    <p>除了广告和敏感话题言论之外 可以畅所欲言~~~</p>
+                </div>
+                <textarea rows="3" maxlength="150" minlength="5" placeholder="请输入5-150字符以内~~~" id="textarea"></textarea>
+            </label>
+            <label class="leave_word_B">
+                <div class="left">
+                    <h4>昵称:</h4>
+                    <p>为自己起个简短易记的名字~~~</p>
+                </div>
+                <input type="text" maxlength="12" min="2" placeholder="请输入2-12个字符的昵称~~~" id="name">
+            </label>
+            <label class="leave_word_B">
+                <div class="left">
+                    <h4>电子邮件:<span>(选填)</span></h4>
+                    <p>方便我可以联系到你，绝对不会被公开。~~~</p>
+                </div>
+                <input type="text" maxlength="50" placeholder="格式:1694432338@qq.com" id="E-mail">
+            </label>
+            <label class="leave_word_B">
+                <div class="left">
+                    <h4>个人主页:<span>(选填)</span></h4>
+                    <p>你的主页链接会加在昵称上方便大家访问~~~</p>
+                </div>
+                <input type="text" maxlength="50" placeholder="格式: www.it0114.xyz" id="youHome">
+            </label>
+            <div class="btn">
+                <button id="submit">提交</button>
+                <button id="reset">重置</button>
+            </div>
+            <ul class="comment" id="comment">
+                <li>
+                    <div><i class="i_img"></i><h4><a href="#">test</a></h4><span>2018-08-08 12:47:1</span></div>
+                    <p>不错呀~~~~~</p>
+                </li> <!--没有回复的-->
+
+                <li>
+                    <div><i></i><h4><a href="#">test</a></h4><span>2018-08-08</span></div>
+                    <p>不错呀~~~~~</p>
+                    <div class="reply">
+                        <h4>博主回复:</h4>
+                        <p>谢谢~~~~~~</p>
+                    </div>
+                </li> <!--有回复的-->
+            </ul>
+            <div class="about"><h3>声明</h3></div>
+            <p>声明: 本站所有的文章均为本人闲暇时原创，如需转载请务必注明出处，谢谢合作！文章所涉及到的内容、观点仅代表我个人，与其他任何人或组织都无关。由于纰漏或者技术更新迭代导致的所述内容观点与现在有所出入的欢迎留言指出
+                :-)</p>
+        </div>
+
+        <div class="footer">
+            <p>—— Design by Y A M ——</p>
+        </div>
+    </div>
+</div>
+<script src="js/aboutme.js"></script>
+</body>
+</html>

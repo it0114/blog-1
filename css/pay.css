@@ -1,0 +1,24 @@
+.main .pay p{
+    color: #686868;
+    text-align: center;
+    line-height: 2;
+}
+.main .pay{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+.main .pay img{
+    width: 200px;
+    margin: 10px auto;
+}
+.main .pay p a{
+    color:blue;
+}
+.main .pay .pay_img{
+    width: 95%;
+    margin: 9% auto;
+    text-align: center;
+}
+

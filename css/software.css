@@ -1,0 +1,65 @@
+.software > * {
+    color: #686868;
+}
+
+.software .details {
+    color: #00a9e0;
+    font-size: 18px;
+}
+
+.software {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.software ul {
+    width: 100%;
+    margin: 0 auto;
+    background: #CCCCCC;
+}
+
+.software ul li {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.software ul li img {
+    width: 100%;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.software ul li b {
+    font-size: 20px;
+    display: block;
+    transition: all 0.5s;
+}
+.software ul li:hover b{
+    color: red;
+}
+.software ul li:hover img{
+    transform: scale(1.1);
+}
+
+.software ul li p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    margin: 5px 0;
+}
+.software ul li:hover{
+    box-shadow:  0 0 10px #CCCCCC;
+}
+@media (min-width: 320px) and (max-width: 640px) {
+    .software ul li{
+        width: 100%;
+        border-bottom: 1px dashed #686868;
+    }
+}

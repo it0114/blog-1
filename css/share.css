@@ -1,0 +1,54 @@
+.main .content .blogroll>*{
+    color: #686868;
+}
+.main .content .blogroll{
+    padding: 20px;
+}
+.main .content .blogroll p:nth-child(1){
+    border: 1px dashed #686868;
+    background: #CCCCCC;
+    padding:0 20px ;
+}
+.main .content .blogroll p:nth-child(2){
+    text-indent: 2em;
+    padding: 10px 30px;
+}
+.main .content .blogroll .blogroll_ul{
+    width: 100%;
+    padding: 20px;
+    border: 1px dashed #686868;
+}
+.main .content .blogroll .blogroll_ul::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.main .content .blogroll .blogroll_ul li{
+    float: left;
+    width: 15%;
+    height: 30px;
+    border: 1px solid #CCCCCC;
+    margin: 10px 2.5%;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s;
+}
+.main .content .blogroll .blogroll_ul li:hover{
+    background: black;
+}
+.main .content .blogroll .blogroll_ul li:hover a{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.main .content .blogroll .blogroll_ul li a{
+    color: #606060;
+    font-size: 17px ;
+}
+@media (min-width: 320px) and (max-width: 640px) {
+    .main .content .blogroll p:nth-child(2){
+        font-size: 14px;
+    }
+    .main .content .blogroll .blogroll_ul li{
+        width: 45%;
+    }
+}

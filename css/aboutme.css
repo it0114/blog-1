@@ -1,0 +1,178 @@
+.about_me {
+    padding: 20px;
+}
+
+.about_me .about {
+    color: #686868;
+    width: 100%;
+    background: #e9e9e9;
+    padding-left: 20px;
+    border: 1px dashed #aaaaaa;
+    margin: 10px 0;
+}
+
+.about_me p {
+    color: #686868;
+    text-indent: 2em;
+    margin: 5px 0;
+}
+
+.about_me .leave_p {
+    text-align: center;
+    padding: 10px;
+}
+
+.about_me .leave_word, .about_me .leave_word_B {
+    width: 95%;
+    margin: 10px auto;
+}
+
+.about_me .leave_word textarea {
+    display: inline-block;
+    width: 59%;
+    padding: 5px;
+    resize: none;
+    background: #EEEEEE;
+    border: 1px solid #a9a9a9;
+}
+
+.about_me .left {
+    width: 40%;
+    display: inline-block;
+    color: #686868;
+    padding: 10px;
+}
+
+.about_me .left span {
+    color: #ababab;
+    font-size: 14px;
+}
+
+.about_me .leave_word_B input {
+    padding: 5px;
+    height: 35px;
+    width: 59%;
+    background: #EEEEEE;
+    border: 1px solid #a9a9a9;
+}
+
+.about_me .btn {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+.about_me .btn::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.about_me .btn > * {
+    width: 18%;
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    float: right;
+}
+
+.about_me .btn button:nth-child(1) {
+    background: #778899;
+}
+
+.about_me .btn button:nth-child(2) {
+    margin-right: 20px;
+    background: #808080;
+}
+
+.about_me .about_img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid skyblue;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.about_me .about_span {
+    display: block;
+    text-align: center;
+}
+.about_me .about_span .about_img:hover{
+    transform: rotate(360deg);
+}
+
+.about_me .comment {
+    color: #686868;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about_me .comment li {
+    /*border-image: -webkit-linear-gradient(0deg, red, blue) 20 20;*/
+    border-bottom: 1px dashed #686868;
+    margin-bottom: 20px;
+}
+
+.about_me .comment h4 a {
+    color: #686868;
+    font-size: 22px;
+    float: left;
+    display: inline-block;
+}
+
+.about_me .comment span {
+    float: right;
+    display: inline-block;
+    color: #a7a7a7;
+    margin: 0 10px;
+}
+
+.about_me .comment p {
+    margin: 10px 0;
+}
+
+.about_me .comment div::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.about_me .comment div i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid skyblue;
+    border-radius: 50%;
+    float: left;
+    margin: 5px;
+    background: url("../images/head.png") center;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.about_me .reply {
+    width: 95%;
+    min-height: 50px;
+    background: #dcdcdc;
+    color: #000;
+    margin: 10px auto;
+    padding: 10px;
+}
+@media (min-width: 320px) and (max-width: 640px) {
+    .main .content .about_me p {
+        font-size: 14px;
+    }
+    .main .content .about_me .left,
+    .main .content .about_me input,
+    .main .content .about_me textarea,
+    .main .content .about_me .btn>*{
+        width: 100%;
+    }
+    .main .content .about_me .btn>*{
+        float: none;
+        margin: 10px 0;
+    }
+}
+

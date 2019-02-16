@@ -1,0 +1,97 @@
+.active{
+    border-top: 1px dashed #333333;
+    margin-top: 20px;
+}
+.active ul li {
+    overflow: hidden;
+    border-bottom: 1px dashed #333333;
+    padding: 10px;
+    position: relative;
+    min-height: 200px;
+}
+.active ul li .title{
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+.active ul li .title a{
+    font-size: 22px;
+    color: #333333;
+    transition: all 0.5s;
+}
+.active ul li:hover .title a{
+    color: red;
+}
+
+.active ul li .pic{
+    float: left;
+    width: 30%;
+    display: block;
+    overflow: hidden;
+}
+
+.active ul li .pic img{
+    border: 2px solid skyblue;
+    width: 100%;
+    border-radius: 10px;
+}
+.active ul li .text a{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    padding: 0 20px;
+    text-indent: 2em;
+    font-size: 16px;
+    color: #666;
+}
+.active ul li .info{
+    display: inline-block;
+    color: #999999;
+    margin-top: 20px ;
+    margin-left: 20px ;
+}
+.active ul li i{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+}
+.active ul li .update{
+    background: url("../images/sj.png")no-repeat;
+}
+.active ul li .read{
+    background: url("../images/ll.png")no-repeat;
+}
+.active ul li .more{
+    text-align: center;
+    border-radius: 5px;
+    display: block;
+    float: right;
+    width: 130px;
+    background: red;
+    color: #EEEEEE;
+    position: absolute;
+    bottom: 5px;
+    right: 50px;
+}
+.active ul li .more>a{
+    font-size: 18px;
+}
+@media (min-width: 320px) and (max-width: 640px) {
+    .main .content .active .text a{
+        font-size: 14px;
+    }
+    .main .content .active .info{
+        margin: 5px ;
+    }
+    .main .content .active li{
+        min-height: 210px;
+    }
+    .main .content .active .more{
+        width: 100%;
+        right: 0;
+        bottom: 5px;
+    }
+}
